@@ -85,7 +85,7 @@ To execute the labs select Kernel -> Restart Kernel and Run All Cells
 
 2. train_gnn_based_xgboost.ipynb -> This will produce two files for the GNN-based XGBoost model under ./data/TabFormer/models directory. Note: Please be aware to set cell 2 with this value: DATASET = TABFORMER
 
-3. inference_gnn_based_xgboost_TabFormer.ipynb -> This is used for Inference
+3. inference_gnn_based_xgboost_TabFormer.ipynb -> This is used for Inference. . Note: Please be aware to set cell 2 with this value: dataset_base_path = '../data/TabFormer/'
 
 Optional: Pure XGBoost
 Two additional notebooks are provided to build a pure XGBoost model (without GNN) and perform inference using that model.
@@ -102,4 +102,4 @@ To execute the labs select Kernel -> Restart Kernel and Run All Cells
 Optional: Pure XGBoost
 Two additional notebooks are provided to build a pure XGBoost model (without GNN) and perform inference using that model.
 1. train_xgboost.ipynb -> This will produce a XGBoost model under ./data/Sparkov/models directory. Note: Please be aware to set cell 2 with this value: DATASET = SPARKOV
-2. inference_xgboost_Sparkov.ipynb -> This is used for inference
+2. inference_xgboost_Sparkov.ipynb -> This is used for inference. Note: Please be aware to set cell 2 with this value: dataset_base_path = '../data/Sparkov/'

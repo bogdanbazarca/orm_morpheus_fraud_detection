@@ -55,7 +55,7 @@ variables:
     required: true
     visibile: true
     default: true
-    title: "Use existent VPN"
+    title: "Use existing VCN"
     description: "Choose if a VCN will be created or not"
 
   vcn_id:
